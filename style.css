@@ -1,0 +1,32 @@
+body
+{
+    background:linear-gradient(-555deg,red,rgb(241, 40, 40),rgb(251, 126, 1),orange,rgb(255, 183, 75),rgb(255, 251, 0),rgb(248, 245, 103),rgb(248, 242, 138));
+}
+h1
+{
+    color:rgb(232, 130, 252);
+    background-color: rgb(238, 209, 209);
+}
+#show_sketch
+{
+    float:right;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px gray;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+p 
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
